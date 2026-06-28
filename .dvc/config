@@ -1,4 +1,8 @@
 [core]
-    remote = myremote
-['remote "myremote"']
-    url = ../../dvc_storage
+    remote = cloudru
+['remote "cloudru"']
+    url = s3://mlops-dvc-bucket-kocheshkov/dvc_data
+    endpointurl = https://s3.cloud.ru
+    region = ru-central-1
+    access_key_id = 1416f3a3-cd6e-4add-8c51-8e6609602246:42c654bf865ec62e94aa2b9eedcb9b53
+    secret_access_key = 499c6a0dd88990ab8a30c7f6636eee6a
