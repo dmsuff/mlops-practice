@@ -1,0 +1,6 @@
+scikit-learn
+pyyaml
+joblib
+pre-commit
+ruff
+pandas
